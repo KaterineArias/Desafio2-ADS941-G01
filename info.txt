@@ -1,8 +1,0 @@
-Universidad Don Bosco
-Análisis y Diseño de Sistemas Informáticos (ADS941)
-
-Integrantes:
-Orellana Hernández, Jonatan Alexander       OH240248
-Arias Grande, Katerine Esmeralda            AG231993
-Saravia Cuadra, Oswaldo Wilfredo            SC121824
-Cruz Torres, Daniela Nicole                 CT201109
