@@ -261,3 +261,124 @@ header nav a.active {
   letter-spacing: 0.5px;
   margin-top: 2px;
 }
+
+/* NAVEGACIÓN DEL HEADER */
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 0.95em;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+header nav a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+header nav a.active {
+  opacity: 1;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+}
+
+/* HERO DE SECCIÓN */
+.equipos-hero {
+  text-align: center;
+  padding: 30px 20px 10px;
+}
+
+.equipos-hero h2 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 6px 0;
+}
+
+.equipos-hero p {
+  color: #888;
+  font-size: 0.95em;
+  margin: 0 0 10px 0;
+}
+
+/* CUERPO DE TARJETA */
+.team-body {
+  padding: 20px;
+}
+
+.team-pos {
+  font-size: 1em;
+  font-weight: bold;
+  color: #e10600;
+}
+
+.team-origin {
+  font-size: 0.82em;
+  color: #888;
+  margin: 0 0 12px 0;
+}
+
+/* BARRA DE PUNTOS */
+.team-points-bar {
+  background-color: #2b2b35;
+  border-radius: 20px;
+  height: 8px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.6s ease;
+}
+
+.team-points-label {
+  font-size: 0.78em;
+  color: #888;
+  margin: 0 0 14px 0;
+}
+
+/* ESTADÍSTICAS DEL EQUIPO */
+.team-stats {
+  display: flex;
+  gap: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  padding-top: 14px;
+  margin-top: 14px;
+}
+
+.team-stat {
+  flex: 1;
+  text-align: center;
+}
+
+.tstat-val {
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #e10600;
+}
+
+.tstat-key {
+  display: block;
+  font-size: 0.72em;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}
+
+/*  PILOTO DENTRO DE TARJETA DE EQUIPO */
+.driver-country {
+  font-size: 0.8em;
+  color: #888;
+  display: block;
+}
+
